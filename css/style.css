@@ -5,3 +5,22 @@ header {
 .logo {
     display: inline-block;
 }
+.nav-button-container {
+
+}
+.nav-button {
+
+}
+.nav-button:hover {
+    color: red;
+}
+.button-selected {
+    color: red;
+}
+
+/* hero section */
+.hero {
+    background-image: url(../images/Hero.svg);
+    /* background-position: left top; */
+    /* background-repeat: no-repeat; */
+}
