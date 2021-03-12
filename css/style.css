@@ -1,21 +1,42 @@
 header {
     width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    background-color:goldenrod;
+}
+#navBar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 5%;
 }
 
 .logo {
     display: inline-block;
+    width: 23%;
+    padding: 1%;
+    align-items: center;
 }
 .nav-button-container {
-
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 25%;
 }
 .nav-button {
-
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 25%;
 }
 .nav-button:hover {
-    color: red;
+    color: forestgreen;
 }
 .button-selected {
-    color: red;
+    color:forestgreen;
+}
+
+body {
+    background-color: lightpink;
 }
 
 /* hero section */
@@ -23,4 +44,21 @@ header {
     background-image: url(../images/Hero.svg);
     /* background-position: left top; */
     /* background-repeat: no-repeat; */
+    background-position: left top;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding: 25%;
+    
+}
+.heroText {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.heroAvatar {
+    align-items: center;
+}
+
+.button {
+
+
 }
