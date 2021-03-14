@@ -7,6 +7,8 @@ header {
 #navBar {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
     margin: 0px 5%;
 }
 
@@ -14,7 +16,7 @@ header {
     display: inline-block;
     width: 23%;
     padding: 1%;
-    align-items: center;
+    justify-content: flex-start;
 }
 .nav-button-container {
     display: flex;
@@ -38,7 +40,9 @@ header {
 body {
     background-color: lightpink;
 }
-
+.heroSection {
+    flex-direction: row;
+}
 /* hero section */
 .hero {
     background-image: url(../images/Hero.svg);
@@ -50,15 +54,46 @@ body {
     padding: 25%;
     
 }
+.left {
+    float: left;
+    padding-right: 15px;
+}
 .heroText {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    justify-content: center;
+}
+.center {
+    float:inherit
 }
 .heroAvatar {
-    align-items: center;
+   justify-content: center;
 }
-
+.right {
+    float:right;
+    padding-left: 15px;
+}
 .button {
+    background-color: antiquewhite;
 
 
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin: 0px 5%;
+}
+.footer-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+.footer-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
 }
