@@ -1,98 +1,49 @@
-header {
-    width: 100%;
-    display: inline-block;
-    vertical-align: top;
-    background-color:goldenrod;
-}
-#navBar {
+nav {
     display: flex;
     justify-content: space-between;
-    flex-wrap: nowrap;
-    margin: 0px 5%;
+    background-color: rgb(213, 194, 95);
 }
-
 .logo {
-    display: inline-block;
-    width: 23%;
-    padding: 1%;
+    display: flex;
     justify-content: flex-start;
 }
 .nav-button-container {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 25%;
+    padding: 10px;
+    display: inline-block;
 }
 .nav-button {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 25%;
-}
-.nav-button:hover {
-    color: forestgreen;
-}
-.button-selected {
-    color:forestgreen;
-}
-
-body {
-    background-color: lightpink;
+    padding: 20px;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .heroSection {
-    flex-direction: row;
-}
-/* hero section */
-.hero {
-    background-image: url(../images/Hero.svg);
-    /* background-position: left top; */
-    /* background-repeat: no-repeat; */
-    background-position: left top;
-    background-repeat: no-repeat;
-    height: 400px;
-    padding: 25%;
-    
-}
-.left {
-    float: left;
-    padding-right: 15px;
-}
-.heroText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    justify-content: center;
 }
-.center {
-    float:inherit
+.leftHero {
+    display: flex;
+    justify-content: flex-start;
 }
-.heroAvatar {
-   justify-content: center;
-}
-.right {
-    float:right;
-    padding-left: 15px;
-}
-.button {
-    background-color: antiquewhite;
-
-
+button {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 footer {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    margin: 0px 5%;
+    justify-content: center;
+    background-color:rgb(152, 149, 193);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .footer-button-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25%;
 }
 .footer-button {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 25%;
+    padding: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
